@@ -1,5 +1,6 @@
-/* Survey page styles */
-
+/*****************************
+  Survey page styles
+*****************************/
 .photo{
   width: 60%;
   padding: 10px;
@@ -20,7 +21,10 @@ form {
 }
 
 
-/* Styles for larger screens */
+
+/*****************************
+  Styles for larger screens
+*****************************/
 @media screen and (min-width: 840px) {
   .photo{
     width: 40%;

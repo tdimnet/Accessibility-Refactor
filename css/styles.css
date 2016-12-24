@@ -1,4 +1,6 @@
-/* Global Layout Set-up */
+/*****************************
+  Global Layout Set-up
+*****************************/
 * {
   box-sizing: border-box;
 }
@@ -8,23 +10,31 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
+  color: #D9E7E3;
   background: #2d2b30;
 }
 
-/* Link Styles */
 
+
+
+/*****************************
+  Link Styles
+*****************************/
 a {
   text-decoration: none;
-  color: #999;
+  color: #72F060;
 }
 
 a:hover {
-  color: #999;
+  color: #72F060;
+  text-decoration: underline;
 }
 
-/* Section Styles */
 
+
+/*****************************
+  Section Styles
+*****************************/
 .main-nav {
   width: 100%;
   background: rgba(45, 43, 48, 0.8);
@@ -55,11 +65,11 @@ a:hover {
 }
 
 .nav a {
-  transition: all .5s;
+  padding: 10px;
 }
 
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
@@ -88,18 +98,31 @@ header .name{
   font-weight: 600;
   padding: 20px;
   text-transform: uppercase;
-  color: #781125
+  color: #72F060;
 }
 
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  border-top: 4px solid #781125;
+  border-top: 4px solid #72F060;
   clear: both;
 }
 .card:hover {
-  border-color: #96731A;
+  border-color: #fff;
+}
+.buy {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.buy:hover {
+  background: #72F060;
+  border-color: #72F060;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 
@@ -120,12 +143,15 @@ header .name{
 .heading{
   font-size: 2em;
   text-transform: uppercase;
-  color: #781125;
+  color: #72F060;
   margin-top: 10px;
 }
 
-/* Footer styles */
 
+
+/*****************************
+  Footer styles
+*****************************/
 footer {
   width: 100%;
   min-height: 30px;
@@ -149,6 +175,7 @@ footer ul li {
 
 a.social {
   display: inline-block;
+  text-indent: -20000px;
   margin-left: 5px;
   width: 30px;
   height: 30px;
@@ -176,7 +203,11 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for larger screens */
+
+
+/*****************************
+  Styles for larger screens
+*****************************/
 @media screen and (min-width: 840px) {
 
   .flex {
