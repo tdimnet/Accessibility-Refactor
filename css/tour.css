@@ -28,6 +28,10 @@ pre {
   font-size: 1.2em;
 }
 
+.tour-dates-table caption {
+  padding: 10px 0px 20px;
+}
+
 .tour-dates-table thead {
   color: #72F060;
 }
