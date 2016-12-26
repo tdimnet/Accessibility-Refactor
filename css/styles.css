@@ -40,10 +40,15 @@ a:hover {
   background: rgba(45, 43, 48, .9);
   min-height: 30px;
   padding: 10px;
-  position: fixed;
   text-align: center;
-  z-index: 20;
   border-bottom: 5px solid green;
+
+
+  /*
+  For accessibility reasons I've decided to remove these two rules:
+      position: fixed;
+      z-index: 20;
+  */
 }
 
 .nav {
@@ -136,7 +141,7 @@ header .name{
 }
 
 .card:hover {
-  background: #333;
+  /*background: #333;*/
 }
 .buy {
   padding: 10px;

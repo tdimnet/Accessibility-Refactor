@@ -23,30 +23,63 @@
       <p>We make awesome music</p>
     </header>
 
-    <main >
+    <main>
       <div class="card">
+        <div class="tour-dates">
+          <img class="pick" src= "img/guitar_pick.png" alt>
+          <h2 class= "heading">Tour Dates</h2>
+          <img class="pick" src= "img/guitar_pick.png" alt>
+        </div>
         <div class="flex">
         <!-- The following images are decorative for this project. -->
         <!-- Please see the project instructions for information on how to handle these. -->
-          <img class="pick" src= "img/guitar_pick.png" alt="This is a guitar pick">
-          <p class= "heading">Tour Dates</p>
-          <img class="pick" src= "img/guitar_pick.png" alt="This is a guitar pick also">
-          <pre>
-                Date                             Venue                             Location
-                Mar 10 - 12                 The Warfield                  San Francisco, CA
-                Mar 20 - 23                 Pepsi Center                  Denver, CO
-                Apr 2 - 4                      Beacon Theatre             New York City, NY
-                Apr 10                         Paramount Theatre      Seattle, WA
-          </pre>
+
+          <table class="tour-dates-table">
+          <!--
+            I have wanted to include the summary element but according to the W3C validator, it is now no longer valide.
+
+            Add id and headers attributes to table cells so they identify the cells that relate to the headers
+          -->
+            <caption>Accessible Frog upcomming tour events incuding date, venu and location fo the shows</caption>
+            <thead>
+              <tr>
+                <th id="date" scope="col">Date</th>
+                <th id="venue" scope="col">Venue</th>
+                <th id="location" scope="col">Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th id="march-10-12" headers="date" scope="row">Mar 10 - 12</th>
+                <td headers="venue march-10-12">The Warfield</td>
+                <td headers="location march-10-12">San Francisco, CA</td>
+              </tr>
+              <tr>
+                <th id="march-20-23" headers="date" scope="row">Mar 20 - 23</th>
+                <td headers="venue march-20-23">Pepsi Center</td>
+                <td headers="location march-20-23">Denver, CO</td>
+              </tr>
+              <tr>
+                <th id="april-2-4" headers="date" scope="row">Apr 2 - 4</th>
+                <td headers="venue april-2-4">Beacon Theatre</td>
+                <td headers="location april-2-4">New York City, NY</td>
+              </tr>
+              <tr>
+                <th id="april-10" headers="date" scope="row">Apr 10</th>
+                <td headers="venue april-10">Paramount Theatre</td>
+                <td headers="location april-10">Seattle, WA</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </main>
 
     <footer>
       <ul>
-        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png"></a></li>
-        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png"></a></li>
-        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png"></a></li>
+        <li><a href="#" class="social twitter">Go to our Twitter page</a></li>
+        <li><a href="#" class="social youtube">Go to our Youtube page</a></li>
+        <li><a href="#" class="social spotify">Go to our Spotify page</a></li>
       </ul>
       <p class="copyright">Copyright 2015, Accessible Frog</p>
     </footer>

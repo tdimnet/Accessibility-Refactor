@@ -5,7 +5,13 @@ pre {
   font-family: 'Open Sans', sans-serif;
 }
 
-.heading{
+.tour-dates {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.heading {
   display: inline-block;
   margin: 0;
 }
@@ -14,4 +20,23 @@ pre {
   width: 40px;
   height: 0%;
   padding: 10px;
+}
+
+.tour-dates-table {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.tour-dates-table thead {
+  color: #72F060;
+}
+
+.tour-dates-table th,
+.tour-dates-table td {
+  padding: 10px;
+}
+
+.tour-dates-table tbody {
+  background: #333;
 }
