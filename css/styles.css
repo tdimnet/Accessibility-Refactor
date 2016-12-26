@@ -37,11 +37,13 @@ a:hover {
 *****************************/
 .main-nav {
   width: 100%;
-  background: rgba(45, 43, 48, 0.8);
+  background: rgba(45, 43, 48, .9);
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index: 20;
+  border-bottom: 5px solid green;
 }
 
 .nav {
@@ -61,25 +63,48 @@ a:hover {
 }
 
 .nav li {
-  padding: 5px 10px 10px 10px;
+  padding: 5px 12px 10px 12px;
+}
+
+.nav li:first-child a {
+  text-transform: none;
 }
 
 .nav a {
   padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
 
 .nav a:hover {
-  color: white;
+  background: #72F060;
+  border-color: #72F060;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 90px;
   height: 350px;
+  color: #000;
+  text-transform: uppercase;
 }
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
 
 .tag {
   color: black;
@@ -107,9 +132,11 @@ header .name{
   text-align: left;
   border-top: 4px solid #72F060;
   clear: both;
+  position: relative;
 }
+
 .card:hover {
-  border-color: #fff;
+  background: #333;
 }
 .buy {
   padding: 10px;
