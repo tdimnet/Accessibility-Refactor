@@ -3,7 +3,7 @@
 *****************************/
 .photo{
   width: 60%;
-  padding: 10px;
+  border: 4px solid white;
 }
 
 form {
@@ -20,14 +20,16 @@ fieldset {
 
 
 /*****************************
-  Survey Form
+  Forms
 *****************************/
-.survey {
-  background-color: #555;
+.survey,
+.newsletter {
+  background-color: #444;
   padding: 10px 15px;
 }
 
-.survey legend {
+.survey legend,
+.newsletter legend {
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -46,12 +48,14 @@ fieldset {
 .survey textarea {
   padding: 10px;
   width: 100%;
+  font-size: 0.9em;
 }
 
-.survey button {
+.survey button,
+.newsletter button {
   margin: auto;
   cursor: pointer;
-  border: 1px solid #72F060;
+  border: 1px solid #fff;
   padding: 10px;
   border-radius: 10px;
   font-size: 1.2em;
@@ -61,12 +65,30 @@ fieldset {
   transition: .3s;
 }
 
-.survey button:hover {
+.survey button:hover,
+.newsletter button:hover {
+  border-color: #72F060;
   background-color: #72F060;
   color: #000;
 }
 
-.container{
+.newsletter label,
+.newsletter input {
+  cursor: pointer;
+}
+
+.newsletter input {
+  padding: 5px;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.newsletter ::-webkit-input-placeholder {
+   color: #555;
+   text-align: right;
+}
+
+.container {
   text-align: center;
 }
 
