@@ -8,16 +8,66 @@
 
 form {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   display: inline-block;
+}
+
+fieldset {
+  border: 0;
+  text-align: left;
+}
+
+
+
+/*****************************
+  Survey Form
+*****************************/
+.survey {
+  background-color: #555;
+  padding: 10px 15px;
+}
+
+.survey legend {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.survey input[type="radio"],
+.survey label {
+  cursor: pointer;
+}
+
+.survey select {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.survey textarea {
+  padding: 10px;
+  width: 100%;
+}
+
+.survey button {
+  margin: auto;
+  cursor: pointer;
+  border: 1px solid #72F060;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  background: #555;
+  color: #fff;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.survey button:hover {
+  background-color: #72F060;
+  color: #000;
 }
 
 .container{
   text-align: center;
-}
-.newsletter{
-  text-align: right;
-
 }
 
 
