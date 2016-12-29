@@ -49,6 +49,17 @@ fieldset {
   padding: 10px;
   width: 100%;
   font-size: 0.9em;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.survey textarea:hover {
+  outline: 4px solid #333;
+}
+
+.survey textarea:focus {
+  outline: 5px solid #333;
+  color: #000;
 }
 
 .survey button,
@@ -81,6 +92,17 @@ fieldset {
   padding: 5px;
   width: 100%;
   font-size: 0.9em;
+  transition: .3s;
+}
+
+.newsletter input:hover {
+  outline: 4px solid #333;
+}
+
+.newsletter input:focus {
+  outline: 5px solid #333;
+  background-color: #72F060;
+  color: #000;
 }
 
 .newsletter ::-webkit-input-placeholder {
