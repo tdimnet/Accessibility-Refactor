@@ -41,14 +41,27 @@ fieldset {
 
 .survey select {
   width: 100%;
-  padding: 10px;
+  font-size: 1.1em;
+  padding: 5px;
   cursor: pointer;
+  transition: .5s;
+}
+
+.survey select:hover {
+  outline: 4px solid #333;
+}
+
+.survey select:focus {
+  outline: 5px solid #333;
+  background-color: #72F060;
+  color: #000;
 }
 
 .survey textarea {
-  padding: 10px;
+  padding: 5px;
+  height: 100px;
   width: 100%;
-  font-size: 0.9em;
+  font-size: 1.1em;
   transition: .4s;
   cursor: pointer;
 }
@@ -59,6 +72,7 @@ fieldset {
 
 .survey textarea:focus {
   outline: 5px solid #333;
+  background-color: #72F060;
   color: #000;
 }
 
