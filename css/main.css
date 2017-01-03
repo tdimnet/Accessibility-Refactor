@@ -136,3 +136,112 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
+
+
+
+/*****************************
+  Page: tour.html
+*****************************/
+.tour-page {
+  margin: 10px 5px;
+}
+
+.tour-dates {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.tour-dates h2 {
+  display: inline;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #72F060;
+}
+
+.pick {
+  width: 40px;
+  padding: 10px;
+  vertical-align: text-bottom;
+}
+
+.tour-dates-table {
+  width: 100%;
+  font-size: .9em;
+}
+
+.tour-dates-table caption {
+  padding: 10px 0px 20px;
+}
+
+.tour-dates-table thead {
+  color: #72F060;
+}
+
+.tour-dates-table th,
+.tour-dates-table td {
+  padding: 5px;
+}
+
+.tour-dates-table tbody {
+  background: #333;
+}
+
+
+
+/*****************************
+  Page: survey.html
+*****************************/
+
+
+
+
+/*****************************
+  Footer
+*****************************/
+.main-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 4px solid #72F060;
+}
+
+.main-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer li {
+  display: inline-block;
+}
+
+.main-footer a.social {
+  display: inline-block;
+  text-indent: -20000px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+.main-footer a.twitter {
+  background-image: url(../img/twitter-32.png);
+}
+
+.main-footer a.youtube {
+  background-image: url(../img/youtube-32.png);
+}
+
+.main-footer a.spotify {
+  background-image: url(../img/spotify-32.png);
+}
+
+.main-footer a.social:hover {
+  opacity: 1;
+}
+
+.main-footer .copyright {
+  font-size: .75em;
+}
