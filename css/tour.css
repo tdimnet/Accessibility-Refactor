@@ -1,8 +1,9 @@
 /*****************************
   Tour page styles
 *****************************/
-pre {
-  font-family: 'Open Sans', sans-serif;
+
+.tour-page {
+  margin: 10px 5px;
 }
 
 .tour-dates {
@@ -11,15 +12,15 @@ pre {
   padding-bottom: 20px;
 }
 
-.heading {
-  display: inline-block;
-  margin: 0;
+.tour-dates .heading {
+  display: inline;
 }
 
-.pick{
+.pick {
+  display: inline;
   width: 40px;
-  height: 0%;
   padding: 10px;
+  vertical-align: text-bottom;
 }
 
 .tour-dates-table {

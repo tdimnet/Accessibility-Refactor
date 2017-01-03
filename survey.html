@@ -2,19 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Accessible Frog | Tour</title>
+
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/survey.css" rel="stylesheet" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+    <!-- My new css files below -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-    <title>Accessible Frog</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
+
     <nav role="navigation" class="main-nav">
-      <ul class="nav">
-        <li class="name"><a href="index.html">Accessible Frog</a></li>
+      <ul>
+        <li><a href="index.html">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
-        <li><a href="#">Survey</a></li>
+        <li><a href="survey.html">Survey</a></li>
       </ul>
     </nav>
 
@@ -25,7 +32,6 @@
 
     <main role="main">
       <h2 class= "heading">Survey</h2>
-      <div class="card">
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="Photograph of one of our indoor concert">
           <div class="container survey-form-container">
@@ -76,10 +82,8 @@
             </form>
           </div><!-- END: Container -->
         </div>
-      </div>
 
       <h2 class="heading">Newsletter</h2>
-      <div class="card">
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="Photograph of our drummer and bass guitarist on stage">
             <div class="container newsletter-form-container">
@@ -109,7 +113,6 @@
               </form>
             </div>
         </div>
-      </div>
     </main>
 
     <footer role="contentinfo">
