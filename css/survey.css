@@ -127,14 +127,3 @@ fieldset {
 .container {
   text-align: center;
 }
-
-
-
-/*****************************
-  Styles for larger screens
-*****************************/
-@media screen and (min-width: 840px) {
-  .photo{
-    width: 40%;
-  }
-}

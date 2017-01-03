@@ -52,8 +52,6 @@ a:hover {
 }
 
 .nav {
-  display: flex;
-  justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
@@ -61,13 +59,13 @@ a:hover {
 }
 
 .nav .name {
-  display: block;
   margin-right: auto;
   color: white;
   letter-spacing: 5px;
 }
 
 .nav li {
+  margin: 10px auto;
   padding: 5px 12px 10px 12px;
 }
 
@@ -76,6 +74,7 @@ a:hover {
 }
 
 .nav a {
+  display: block;
   padding: 10px;
   border: 1px solid white;
   border-radius: 10px;
@@ -95,7 +94,6 @@ header {
   background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 90px;
   height: 350px;
   color: #000;
   text-transform: uppercase;
@@ -143,6 +141,25 @@ header .name{
 .card:hover {
   /*background: #333;*/
 }
+
+.photo{
+  /*display: block;*/
+  margin: 0 auto;
+  width: 100%;
+}
+
+.information{
+  width: 100%;
+  text-align: center;
+}
+
+.heading{
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #72F060;
+  margin-top: 10px;
+}
+
 .buy {
   padding: 10px;
   border: 1px solid white;
@@ -155,28 +172,6 @@ header .name{
   color: #000;
   cursor: pointer;
   text-decoration: none;
-}
-
-
-.photo{
-  display: block;
-  width: 200px;
-  height: 0%;
-  margin: 0 auto;
-}
-
-.information{
-  width: 100%;
-  text-align: center;
-  /*display: inline-block;
-  position: absolute;*/
-}
-
-.heading{
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #72F060;
-  margin-top: 10px;
 }
 
 
@@ -233,59 +228,4 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
-}
-
-
-
-/*****************************
-  Styles for larger screens
-*****************************/
-@media screen and (min-width: 840px) {
-
-  .flex {
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: flex;
-    max-width: 1200px;
-    -ms-flex-pack: distribute;
-  }
-
-  header {
-    min-height: 470px;
-  }
-
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
-
-
-  main {
-    padding-top: 20px;
-  }
-
-  main p {
-    line-height: 1.6em;
-  }
-
-  .card{
-    margin: 40px auto;
-    padding: 20px 40px 40px;
-    width: 80%;
-    max-width: 1000px;
-  }
-
-  .photo{
-    width: 30%;
-    margin: 20px 30px;
-  }
-
-  .information{
-    text-align: left;
-  }
-
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
 }
