@@ -1,0 +1,138 @@
+/*****************************
+  Global Layout Set-up
+*****************************/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #D9E7E3;
+  background: #2d2b30;
+}
+
+a {
+  text-decoration: none;
+  color: #72F060;
+}
+
+a:hover {
+  color: #72F060;
+  text-decoration: underline;
+}
+
+
+
+/*****************************
+  Navigation
+*****************************/
+.main-nav {
+  background: rgba(45, 43, 48, .9);
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 5px solid green;
+}
+
+.main-nav ul {
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 10px auto;
+  padding: 5px 12px 10px 12px;
+}
+
+.main-nav ul a {
+  display: block;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.main-nav a:hover {
+  background: #72F060;
+  border-color: #72F060;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+/*****************************
+  Header
+*****************************/
+.main-header {
+  text-align: center;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  height: 350px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.main-header h1 {
+  font-size: 3em;
+}
+
+.main-header p {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+
+
+/*****************************
+  Page: index.html
+*****************************/
+.main-section {
+  margin: 30px 15px 10px;
+}
+
+.band-info {
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 4px solid #72F060;
+}
+
+.album-img img,
+.band-img img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.information {
+  text-align: center;
+}
+
+.information h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #72F060;
+  margin-top: 10px;
+}
+
+.btn-buy {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.btn-buy:hover {
+  background: #72F060;
+  border-color: #72F060;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
