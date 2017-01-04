@@ -453,4 +453,21 @@ fieldset {
     width: 80%;
     margin: 80px auto;0px;
   }
+
+  /*****************************
+    Page: tour.html
+  *****************************/
+  .tour-dates h2 {
+    font-size: 2em;
+  }
+
+  .tour-dates-table {
+    font-size: 1.2em;
+    max-width: 1024px;
+  }
+
+  .tour-dates-table th,
+  .tour-dates-table td {
+    padding: 10px;
+  }
 }
