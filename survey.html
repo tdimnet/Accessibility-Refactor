@@ -7,8 +7,6 @@
 
     <title>Accessible Frog | Tour</title>
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-
     <!-- My new css files below -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
@@ -31,11 +29,12 @@
     </header>
 
     <main role="main">
-      <h2 class= "heading">Survey</h2>
-        <div class="flex">
+      <div class="first-form">
+        <h2>Survey</h2>
+        <div class="form-img">
           <img class="photo" src= "img/concert01.jpg" alt="Photograph of one of our indoor concert">
+        </div>
           <div class="container survey-form-container">
-
             <form class="survey" action="#" method="post">
               <fieldset>
                 <legend>The Accessible Frog's Survey</legend>
@@ -77,45 +76,45 @@
                   <textarea name="favorite_song" id="favorite_song" placeholder="e.g.: blowing in the wind"></textarea>
                 </p>
               </fieldset>
-
               <button type="submit">Submit your choices!</button>
             </form>
           </div><!-- END: Container -->
-        </div>
+      </div><!-- END: First-Form -->
 
-      <h2 class="heading">Newsletter</h2>
-        <div class="flex">
+      <div class="second-form">
+        <h2 class="heading">Newsletter</h2>
+        <div class="form-img">
           <img class="photo" src= "img/the_band.jpg" alt="Photograph of our drummer and bass guitarist on stage">
-            <div class="container newsletter-form-container">
-              <form class="newsletter">
-                <fieldset>
-                  <legend>The Accessible Frog's Newsletter</legend>
-                  <p>
-                    <label for="name">Name:</label>
-                    <br>
-                    <input type="text" id="name" name="user_fullname" placeholder="example: Anakyn">
-                  </p>
+        </div>
+        <div class="container newsletter-form-container">
+          <form class="newsletter">
+            <fieldset>
+              <legend>The Accessible Frog's Newsletter</legend>
+                <p>
+                  <label for="name">Name:</label>
+                  <br>
+                  <input type="text" id="name" name="user_fullname" placeholder="example: Anakyn">
+                </p>
 
-                  <p>
-                    <label for="email">Email:</label>
-                    <br>
-                    <input type="email" id="email" name="user_email" placeholder="example: Anakyn@skywalker.com">
-                  </p>
+                <p>
+                  <label for="email">Email:</label>
+                  <br>
+                  <input type="email" id="email" name="user_email" placeholder="example: Anakyn@skywalker.com">
+                </p>
 
-                  <p>
-                    <label for="confirm_email">Retype Email:</label>
-                    <br>
-                    <input type="email" id="confirm_email" name="user_confirm_email" placeholder="example: Anakyn@skywalker.com">
-                  </p>
-                </fieldset>
-                <button type="submit">Sign Up</button>
-
-              </form>
-            </div>
+                <p>
+                  <label for="confirm_email">Retype Email:</label>
+                  <br>
+                  <input type="email" id="confirm_email" name="user_confirm_email" placeholder="example: Anakyn@skywalker.com">
+                </p>
+              </fieldset>
+              <button type="submit">Sign Up</button>
+            </form>
+          </div>
         </div>
     </main>
 
-    <footer role="contentinfo">
+    <footer role="contentinfo" class="main-footer">
       <ul>
         <li><a href="#" class="social twitter">Go to our Twitter page</a></li>
         <li><a href="#" class="social youtube">Go to our Youtube page</a></li>
