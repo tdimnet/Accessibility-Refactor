@@ -324,8 +324,6 @@ fieldset {
 
 
 
-
-
 /*****************************
   Footer
 *****************************/
@@ -374,4 +372,85 @@ fieldset {
 
 .main-footer .copyright {
   font-size: .75em;
+}
+
+
+
+/*****************************
+  Media Queries
+*****************************/
+@media screen and (min-width: 768px) {
+  /*****************************
+    Global Layout Set-up
+  *****************************/
+  .clearfix:before,
+  .clearfix:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+
+  .clearfix:after {
+      clear: both;
+  }
+  /*****************************
+    Navigation
+  *****************************/
+  .main-nav ul {
+    display: flex;
+  }
+
+  .main-nav li {
+    margin: 10px 0px;
+  }
+
+  .main-nav li:nth-child(2) {
+    margin-left: auto;
+  }
+
+  .main-nav ul a {
+    display: initial;
+    font-size: 1.2em;
+  }
+
+  /*****************************
+    Header
+  *****************************/
+  .main-header {
+    min-height: 470px;
+    padding-top: 50px;
+  }
+
+  .main-header h1 {
+    font-size: 3.4em;
+  }
+
+  .main-header p {
+    font-size: 2em;
+  }
+
+  /*****************************
+    Page: index.html
+  *****************************/
+  .main-section {
+    max-width: 1024px;
+    margin: 20px auto;
+    padding: 20px 40px;
+  }
+
+  .album-img,
+  .band-img {
+    float: left;
+    width: 40%;
+  }
+
+  .band-info .information {
+    float: left;
+    width: 60%;
+  }
+
+  .btn-buy {
+    display: block;
+    width: 80%;
+    margin: 80px auto;0px;
+  }
 }
