@@ -246,11 +246,12 @@ fieldset {
 }
 
 .survey select:hover {
-  outline: 4px solid #333;
+  outline: 2px solid #333;
+  background-color: #72F060;
 }
 
 .survey select:focus {
-  outline: 5px solid #333;
+  outline: 2px solid #333;
   background-color: #72F060;
   color: #000;
 }
@@ -265,11 +266,12 @@ fieldset {
 }
 
 .survey textarea:hover {
-  outline: 4px solid #333;
+  outline: 2px solid #333;
+  background-color: #72F060;
 }
 
 .survey textarea:focus {
-  outline: 5px solid #333;
+  outline: 2px solid #333;
   background-color: #72F060;
   color: #000;
 }
@@ -308,11 +310,12 @@ fieldset {
 }
 
 .newsletter input:hover {
-  outline: 4px solid #333;
+  outline: 2px solid #333;
+  background-color: #72F060;
 }
 
 .newsletter input:focus {
-  outline: 5px solid #333;
+  outline: 2px solid #333;
   background-color: #72F060;
   color: #000;
 }
@@ -451,7 +454,7 @@ fieldset {
   .btn-buy {
     display: block;
     width: 80%;
-    margin: 80px auto;0px;
+    margin: 80px auto 0px;
   }
 
   /*****************************
