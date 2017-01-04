@@ -470,4 +470,28 @@ fieldset {
   .tour-dates-table td {
     padding: 10px;
   }
+
+  /*****************************
+    Page: survey.html
+  *****************************/
+  .first-form,
+  .second-form {
+    max-width: 1024px;
+    margin: 20px auto;
+  }
+
+  .form-img {
+    float: left;
+    width: 40%;
+    padding: 0px 10px;
+    vertical-align: top;
+  }
+
+  .survey-form-container,
+  .newsletter-form-container {
+    float: left;
+    width: 60%;
+    padding: 0px 20px;
+    vertical-align: top;
+  }
 }
